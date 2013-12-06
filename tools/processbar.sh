@@ -26,7 +26,7 @@ function process_bar {
 
     # Overwrite current line
     echo -ne '\r'
-    echo -n "$hash_signs$space_signs($percent%)"
+    echo -n "[$hash_signs$space_signs]($percent%)"
 }
 
 function main {
